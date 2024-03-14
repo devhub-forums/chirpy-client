@@ -1,0 +1,242 @@
+welcome_topic_title: |
+  Chirpy Introduction
+
+welcome_topic_body: |
+  Hey there, my name is Chirpy!
+
+  Don't be alarmed :no_bell:, but i'm not a real person. I am just a little bird who's here to help!
+
+  I'll send a brief greeting to each new staff member in this topic, welcoming them to the team and offering them a chance to experiment and discover how things work in our Forum. There's even a special prize for them at the end! :gift: Really!
+
+  If you'd like to interact with me at anytime you can mention @chirpy anywhere in this private #staff category. Otherwise i'll stay out of your way and let you get on with your work.
+
+  **Side note:** You can also send me a message and i'll respond to you :eyes:.
+
+hello: |
+  Hi @<%= user.username %>
+
+  Welcome to the Dev Hub Forum! It's great to meet you.
+
+  I'd love :heart: to show you around and help you get to know the place. When you have the time just reply to this post and we can get started.
+
+bot_likes_unicorn: |
+  Did you know that the unicorn is the national animal of Scotland? :unicorn:
+
+  It's true! They are a symbol of purity and grace just check [this](https://en.wikipedia.org/wiki/Unicorn) out.
+
+  > If you like unicorns too, just give me a :unicorn: and we can be unicorn buddies! (optional)
+
+bot_likes_ninja: |
+  Did you know that ninjas used to hide in the same spot for days, waiting for their target to appear? :ninja:
+
+  They were known to be masters of stealth and disguise. They often disguised themselves as inanimate objects, such as trees or rocks :leaves:!
+
+  http://nerdreactor.com/wp-content/uploads/2012/12/Ninja_Gaiden_NES_02.jpg
+
+bot_likes_bacon: |
+  Did you know that bacon is one of the oldest processed meats in history? :bacon:
+
+  It dates back to 1500 B.C. and was used by the Romans as a treatment for various illnesses. They even used it as a form of currency!
+
+  http://www.baconscotch.info/wp-content/uploads/2013/01/bacon.jpg
+
+  :pig: :pig: :pig: :pig: :pig: :pig:
+  https://media.giphy.com/media/10l8MVei2OxbuU/giphy.gif 
+  https://media.giphy.com/media/qZiUOutzxgfKM/giphy.gif
+
+bot_likes_monkey: |
+  Did you know that monkeys are known to be very intelligent animals? :monkey:
+
+  They are known to use tools and even have their own language. They are also very social animals and can be found in groups of up to 600 individuals!
+
+  http://www.animalfactguide.com/wp-content/uploads/2013/01/monkey.jpg
+
+  :monkey: :fries:
+
+  https://www.youtube.com/watch?v=FjqfX8-L0Tk
+
+no_onebox: |
+  Whoops, hat does not have a onebox in it :sweat_smile:. This step is pretty simple just paste a link to something on its own line and it will automatically be oneboxed.
+
+quote_user: |
+  Excellent :clap:! Let me quote what you just said: 
+
+  [quote="<%= post.user.username %>, post:<%= post.id %>, topic:<%= post.topic.id %>, full:true"]
+    <%= post.raw %>
+  [/quote]
+
+  Keep your eyes peeled now, did you notice how my reply appeared automatically without refreshing the page? :eyes: Everything here updates in real time :clock:!
+
+  Pretty cool right!!!
+
+  Next, can you create a new topic in the #staff category and mention and subject i like? :smile:
+
+  Available subjects are: 
+  - unicorns :unicorn:
+  - ninjas :ninja:
+  - bacon :bacon:
+  - monkeys :monkey:
+
+  Please don't judge my interests :sweat_smile: this is just the way i was programmed :robot:.
+
+congratulations: |
+  Wow :tada: you did it! That's all i have to show you for now! thanks for sticking with me.
+
+  Personally i think after all that hard work you deserve a prize! :gift: so i made this for you :smile:
+
+  <img src='data:image/svg+xml;utf8,<?xml version="1.0" encoding="utf-8"?> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 792 612" style="enable-background:new 0 0 792 612;" xml:space="preserve"> <style type="text/css"> @import "https://fonts.googleapis.com/css?family=Great+Vibes|Montserrat"; .st3{font-size:50px;} .st4{font-family: Sans-serif;} .st5{font-size:16px;} .st7{font-size:25px;} .st8{font-size:80px;} .st10{font-family: "Montserrat"; font-weight: 900;} .st11{font-size:30px;} </style> <radialGradient id="SVGID_1_" cx="396" cy="306" r="353.8729" gradientUnits="userSpaceOnUse"> <stop offset="0.273" stop-color="#FFF9D6"/> <stop offset="1" stop-color="#FFE7A3"/> </radialGradient> <rect width="792" height="612" fill="url(#SVGID_1_)"/> <text text-anchor="middle" transform="matrix(1 0 0 1 396 229.5503)" font-family="Great Vibes" class="st3"><%= user.username %></text> <text text-anchor="middle" transform="matrix(1 0 0 1 396 285.6582)" class="st4 st5">Every so often someone does something so amazing, so epic, so monumental, so ... awesome ... that it needs to be recognized in front of a roaring crowd of adoring fans. This is that moment when you finally get the credit for your hard work, a great attitude, and in general ... just being awesome.</text> <text text-anchor="middle" transform="matrix(1 0 0 1 396 52.5498)"><tspan x="0" y="0" font-family="Great Vibes" class="st7">Proof of Concept of</tspan><tspan x="0" y="96" font-family="Great Vibes" class="st8">Awesomeness</tspan></text> <g> <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 147.927 464.799" to="360 147.927 464.799" dur="30s" repeatCount="indefinite" /> <path fill="#EAD053" d="M274.9,484.1l-28-35.7l15.1-42.9l-43.6-12.4l-12.9-43.5l-42.6,15.7l-36-27.6l-25.2,37.7l-45.3-1.1l1.7,45.4 l-37.2,25.8l28,35.7l-15.1,42.9l43.6,12.4l12.9,43.5l42.6-15.7l36,27.6l25.2-37.7l45.3,1.1l-1.7-45.4L274.9,484.1z"/> </g> <text transform="matrix(0.9715 -0.2368 0.2368 0.9715 67.9774 492.0969)" fill="#FFFFFF" class="st10 st11">AWESOME</text> </svg>'>
+
+  I hope you like it! :heart: Anyways goodbye for now, i'll be around if you need me :wave: just mention @chirpy here in the #staff category.
+
+tutorial_topic_ok: |
+  I'm so glad you started this topic, because i absolutely love <%= data[:subject].pluralize %>!
+
+  <%= dialogue("bot_likes_#{ data[:subject].downcase.singularize}") %>
+
+tutorial_onebox: |
+  Can you share a wikipedia link related to this topic? Try replying with **a link on a line by itself** and it'll automatically expand to include a handy summary!
+
+  This also works for links from YouTube, GitHub, Twitter, Kickstarter, Soundcloud, WordPress and hundreds of other popular sites. But lets just stick with Wikipedia for now :smile:.
+
+tutorial_onebox_ok: |
+  Great! You've just created a "onebox"! :tada:
+
+  This is a special feature of the forum that automatically expands links to provide a summary of the content. It's a great way to share information and keep the conversation flowing.
+
+  I pressed the like :heart: button on your post to show my appreciation. :heart_eyes:
+
+tutorial_picture: |
+  Here's a picture of a <%= data[:subject] %>:
+
+  <img src="/uploads/default/original/1X/ec5ab50b042f1c24757b9bab67871e352e881f7a.jpg" width="500" height="367">
+
+  If you like it (and honestly who wouldn't?) just give me a :heart: and let me know.
+
+  Hey, speaking of - **can you reply with a picture?** Anything will do! You can drag and drop, paste a link or use the upload button :smile:.
+
+tutorial_picture_ok: |
+  Wow, that's a great picture! :ok_hand:
+
+  That step was pretty easy right? You can share images from your computer, phone, or the web. It's a great way to add some personality to your posts.
+
+tutorial_formatting: |
+  Now i'd like you to try adding some formatting to your post. Can you make some words **bold** and _italic_ in your reply!
+
+  To format, you need to use Markdown, BBCode, HTML or if you're not into typing you can just push the buttons at the top of the editor :wink:!
+
+  Here is a cheat sheet to get you started:
+  - `**bold**` (Markdown)
+  - `_italic_` (Markdown)
+  - <b>bold</b> (HTML)
+  - <i>italic</i> (HTML)
+  - [b]bold[/b] (BBCode)
+  - [i]italic[/i] (BBCode)
+
+  If you are feeling adventurous there is a [formatting tutorial](http://commonmark.org/help) that you can check out (make sure you use something from it here though)
+
+tutorial_formatting_ok: |
+  Great! Posts look so much better when they're nicely formatted :ok_hand:.
+
+  A little bit of formatting can go a long way to make your posts more **readable** and **engaging**.
+
+tutorial_quote: |
+  Alright, now things are getting a little more advanced. I'd like you to pick one of the quotes below:
+
+  > If this is coffee, please bring me some tea; but if this is tea, please bring me some coffee.
+  >
+  > One advantage of talking to yourself is that you know at least somebody's listening.
+  >
+  > I want my children to have all the things I couldn't afford. Then I want to move in with them.
+
+  Select one of the quotes above and use the quote feature to reply with it.
+
+  If you need help with this step all you have to do is highlight the text you want to quote and press the "Quote" button that appears. It's that simple! :smile:
+
+tutorial_quote_ok: |
+  Great job! You've just quoted a post :clap:.
+
+  Quoting is a great way to respond to specific points and keep the conversation organized. It's also a great way to give credit to the original author.
+
+tutorial_emoji: |
+  You may have seen me use these little pictures in my replies, like so: :cherries:
+
+  Those are called "emoji" and they're a fun way to add personality to your posts. You can add them to your posts too!
+
+  Go ahead and give it a try, reply to this message/post with your favorite emoji :eyes:
+
+  Here are some ways you can add emoji to your posts:
+  1. Type a traditional "smiley" like `:)` or `;)` or or `:D` and of course `:P`
+  2. Type a colon `:` and then start typing the name of the emoji you want to use. A list of suggestions will appear as you type.
+  3. Press the emoji toolbar button in the editor for a visual picker (mobile users can use their device's emoji keyboard).
+
+  :race_car::dash: GO FOR IT!!!
+
+tutorial_emoji_ok: |
+  Great choice! :tada:
+
+  Emoji are a fun way to add personality to your posts and keep the conversation light and engaging.
+
+tutorial_mention: |
+  Ever had a question for someone specific but aren't able to reply to them? That's where mentions come in!
+
+  I'd like you to mention someone in your reply. Just type `@` and then start typing their username. A list of suggestions will appear as you type.
+
+  Go ahead and give it a try now! Reply to this topic and mention me, @chirpy in your reply and i'll get notified.
+
+tutorial_mention_ok: |
+  Did someone say my name? :raised_hand: I believe you just did! :wave: 
+
+  Mentions are a great way to get someone's attention and bring them into the conversation. They'll be notified that you mentioned them and can easily jump in and reply.
+
+tutorial_link: |
+  One handy way to refer to previous discussions is to link to them. To get a link to a reply or topic:
+  - Use the link :link: button on the post
+  - Copy the link from the address bar of your browser
+  
+  And you know what's _really_ cool? A link between two topics automatically works both ways, so anyone interested in either topic can easily follow all the linked topics too!
+
+  Can you try pasting a link to my [welcome topic](/t/chirpy-introduction) in your next reply??
+
+tutorial_link_ok: |
+  Now that right there is some prime linkage chief :ok_hand:.
+
+  Links are a great way to refer to previous discussions and keep the conversation flowing. They're also a great way to share information and keep the conversation moving.
+
+tutorial_pm: |
+  Sometimes you might want to have a private conversation with someone. You can do that by sending them a private message.
+
+  I'd like you to send me a private message now. Select my avatar to expand the user card, then press the :envelope: Message button.
+
+  I'll be waiting for your message :smile:.
+
+  (Don't worry, i won't tell anyone what you say :shushing_face:)
+
+  **Note:** You can also send me a message from my user page too, if you're into that sort of thing :wink:.
+
+tutorial_pm_ok: |
+  Hey, i just got your personal message :mailbox_with_mail:.
+
+  Thanks i'll reply to you there too :+1:.
+
+  Private messages are a great way to have one-on-one conversations with other members of the community. 
+  
+  They're also a great way to share information and keep the conversation flowing.
+
+tutorial_pm_reply: |
+  My very own private message? For _me?_ :blush: Awe you shouldn't have! :upside_down_face:
+
+        ______ _                    _
+      (_) |  | |                  | |
+          |  | |     __,   _  _   | |
+        _ |  |/ \   /  |  / |/ |  |/_) 
+        (_/   |   |_/\_/||/  |  |_/| \_/
+
+              __         |
+      |   | /  \_|   |  |
+        \_/|/\__/  \_/|_/o
+          /|
+          \|
+
+  You can also add multiple people to a PM to make it a group PM, as needed (but don't go overboard :wink:).
+
+  No need to reply to this, but please know that i will always treasure our correspondence :heart:.

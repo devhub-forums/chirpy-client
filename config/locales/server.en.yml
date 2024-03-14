@@ -1,0 +1,26 @@
+en:
+  site_settings:
+    introbot_enabled: 'Enable intro bot'
+  narratives:
+    quote_user: | 
+      Great! If I remember correctly, you said:
+      [quote="%{username}, post:%{post_id}, topic:%{topic_id}, full:true"]
+      %{raw}
+      [/quote]
+
+      Notice that new replies appear automatically, there's no need to refresh the page to get new information posted by other users.
+      Next, let's create a new post. Create a post in the `staff` category and mention me (@system).
+    user_quoted: | 
+      Great! Next let's try to play with other forms of content. I am really fond of robots. Here is one of my close friends, @voltron!
+
+      <img src="/uploads/default/original/1X/96333f2b30e17cab7facdfd496c0d321c8fe5a3b.jpg" width="640" height="360">
+
+      You can show me an image of something by either pasting it from your clipboard or dragging an image file from your desktop.
+
+      Show me a picture of some cats!
+
+    user_quoted_fallback: |
+      [quote="%{postusername}, post:%{post_id}, topic:%{topic_id}, full: true"]
+      %{raw}
+      [/quote]
+      <img src="/uploads/default/original/1X/53cfc2318b93ec2bc0f9a824321614d25648f686.jpg" width="500" height="500">
